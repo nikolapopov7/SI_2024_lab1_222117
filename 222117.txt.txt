@@ -1,0 +1,49 @@
+1.Инсталирав и креирав профил на GitHub.
+2.Го променив името на глвната гранка во maste.
+3.Креирав remote репозиториум кој исто така е приватен и именуван на соодветниот начин.
+4.Креирав директориум со истото име како и remote репозиториумот.Влегов во директориумот со командата cd SI_2024_lab1_222117 и потоа само направив git init.
+5.Го поврзав локалното репо со remote репото со командта git remote add origin https://github.com/nikolapopov7/SI_2024_lab1_222117.git
+6.Додадов датотека со командата nano README.md и направив commit со командата git add .  и потоа  git commit -m "Initial commit" и на крај git push -u origin master
+7.Ги преземав трите фајлови ги ископирав и ги ставив во директориумот SI_2024_lab1_222117 и направив commit со командата git add .  и потоа git commit -m "Add starter code"
+8.Ги синхронизирав сите гранки такашто направив:
+-git checkout master и потоа git push -u origin master
+9.Отворив две гранки на тој начин што:
+-git checkout -b bug1, потоа git checkout master(за да се разгранува од master)
+-git checkout -b bug2, потоа git checkout master(за да се разгранува од master)
+10.git checkout bug1 
+11.nano SILab1_1.java, потоа поправаме наместо "==0" "==1",после тоа излегуваме од фајлот правиме git add . и на крај правиме commit со git commit -m "Fix wrong condition in filterOddLengthStrings"
+12.git checkout bug2
+13.nano SILab1_1.java, потоа поправаме наместо "< minLength" ">= minLength",после тоа излегуваме од фајлот правиме git add . и на крај правиме commit со git commit -m "Fix wrong condition in makeBigStringFrom"
+14.git checkout bug1 
+15.nano SILab1Main, ги правиме промените, потоа git add . и на крај git commit -m " Call method filterOddLengthStrings in main class"
+16.git checkout bug2
+17.nano SILab1Main, ги правиме промените, потоа git add . и на крај git commit -m " Call method makeBigStringFrom in main class"
+18.git checkout master,потоа git push -u origin master
+   git checkout bug1, потоа git push -u origin bug1
+   git checkout bug2, потоа git push -u origin bug2
+19.git checkout master
+20.git merge bug1(Fast-forward)
+21.git checkout master,потоа git push -u origin master
+   git checkout bug1, потоа git push -u origin bug1
+   git checkout bug2, потоа git push -u origin bug2
+
+22.git checkout bug2
+23.git rebase master-се случи конфликт
+   CONFLICT (content): Merge conflict in SILab1Main.java
+error: could not apply 6e89f8d... Call method makeBigStringFrom in main class
+hint: Resolve all conflicts manually, mark them as resolved with
+hint: "git add/rm <conflicted_files>", then run "git rebase --continue".
+hint: You can instead skip this commit: run "git rebase --skip".
+hint: To abort and get back to the state before "git rebase", run "git rebase --abort".
+Could not apply 6e89f8d... Call method makeBigStringFrom in main class
+>>>>>>>,======== ги избришав и после тоа направив:
+git add SILab1Main.java
+git rebase --continue и накрај пишуваше rebased successfully
+24.git checkout master
+25.git merge bug2
+26.git push --all(error)
+27.git push --force origin bug2(успешно но со force)
+28.git checkout master,touch logs.txt, git log >> logs.txt
+   git checkout bug1, git log >> logs.txt
+   git checkout bug2, git log >> logs.txt
+29.git push --all

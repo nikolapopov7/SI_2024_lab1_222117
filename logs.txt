@@ -1,0 +1,94 @@
+---------------------------------------------------------------------------------------------------
+commit 002f1e1edd14196cdb977d1c7e9eeeeddd27f397
+Author: nikolapopov7 <nikola.popov355@gmail.com>
+Date:   Sat Apr 13 15:19:23 2024 +0200
+
+    Call method makeBigStringFrom in main class
+
+commit 05fc1442be36f11fcf31d80ff196a2f288261805
+Author: nikolapopov7 <nikola.popov355@gmail.com>
+Date:   Sat Apr 13 14:26:32 2024 +0200
+
+    Fix wrong condition in makeBigStringFrom
+
+commit 5f734a06e810810fdd5f1a3f9fee94f5ba26a977
+Author: nikolapopov7 <nikola.popov355@gmail.com>
+Date:   Sat Apr 13 14:50:05 2024 +0200
+
+    Call method filterOddLengthStrings in main class
+
+commit 29cb2d392107d5e343cee0172ae3d396cf325357
+Author: nikolapopov7 <nikola.popov355@gmail.com>
+Date:   Sat Apr 13 14:20:10 2024 +0200
+
+    Fix wrong condition in filterOddLengthStrings
+
+commit 9e1656703b9892e2f71e30d3e853f829cd7e0ab2
+Author: nikolapopov7 <nikola.popov355@gmail.com>
+Date:   Sat Apr 13 13:58:50 2024 +0200
+
+    Add starter code
+
+commit a9c6d189f74f791a9f4e8042079c5523db48d165
+Author: nikolapopov7 <nikola.popov355@gmail.com>
+Date:   Sat Apr 13 13:43:05 2024 +0200
+
+    Initial commit
+commit 5f734a06e810810fdd5f1a3f9fee94f5ba26a977
+Author: nikolapopov7 <nikola.popov355@gmail.com>
+Date:   Sat Apr 13 14:50:05 2024 +0200
+----------------------------------------------------------------------------------------------------
+    Call method filterOddLengthStrings in main class
+
+commit 29cb2d392107d5e343cee0172ae3d396cf325357
+Author: nikolapopov7 <nikola.popov355@gmail.com>
+Date:   Sat Apr 13 14:20:10 2024 +0200
+
+    Fix wrong condition in filterOddLengthStrings
+
+commit 9e1656703b9892e2f71e30d3e853f829cd7e0ab2
+Author: nikolapopov7 <nikola.popov355@gmail.com>
+Date:   Sat Apr 13 13:58:50 2024 +0200
+
+    Add starter code
+----------------------------------------------------------------------------------------------------
+commit a9c6d189f74f791a9f4e8042079c5523db48d165
+Author: nikolapopov7 <nikola.popov355@gmail.com>
+Date:   Sat Apr 13 13:43:05 2024 +0200
+
+    Initial commit
+commit 002f1e1edd14196cdb977d1c7e9eeeeddd27f397
+Author: nikolapopov7 <nikola.popov355@gmail.com>
+Date:   Sat Apr 13 15:19:23 2024 +0200
+
+    Call method makeBigStringFrom in main class
+
+commit 05fc1442be36f11fcf31d80ff196a2f288261805
+Author: nikolapopov7 <nikola.popov355@gmail.com>
+Date:   Sat Apr 13 14:26:32 2024 +0200
+
+    Fix wrong condition in makeBigStringFrom
+
+commit 5f734a06e810810fdd5f1a3f9fee94f5ba26a977
+Author: nikolapopov7 <nikola.popov355@gmail.com>
+Date:   Sat Apr 13 14:50:05 2024 +0200
+
+    Call method filterOddLengthStrings in main class
+
+commit 29cb2d392107d5e343cee0172ae3d396cf325357
+Author: nikolapopov7 <nikola.popov355@gmail.com>
+Date:   Sat Apr 13 14:20:10 2024 +0200
+
+    Fix wrong condition in filterOddLengthStrings
+
+commit 9e1656703b9892e2f71e30d3e853f829cd7e0ab2
+Author: nikolapopov7 <nikola.popov355@gmail.com>
+Date:   Sat Apr 13 13:58:50 2024 +0200
+
+    Add starter code
+
+commit a9c6d189f74f791a9f4e8042079c5523db48d165
+Author: nikolapopov7 <nikola.popov355@gmail.com>
+Date:   Sat Apr 13 13:43:05 2024 +0200
+
+    Initial commit
